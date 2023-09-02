@@ -8,14 +8,14 @@ list1.append(marks)
 print("List containing marks of student: ", list1)
 print("-"*50)
 # Finding Mean
-sum = 0 # Initialize
+sum = 0 
 for i in list1:
 sum += i
 print("Sum of all the elements in the list: ", sum)
 x_bar = sum/len(list1)
 print("Mean: ", x_bar)
 # Finding Variance
-var = 0 # Initialize
+var = 0 
 for i in list1:
 var = var + ((i - x_bar)**2)/len(list1)
 print("Variance: ", var)
