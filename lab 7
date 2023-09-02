@@ -11,7 +11,7 @@ file_path = os.path. join (foldername, filename)
 zipf.write(file_path, os.path.relpath(file_path, source_folder)):
 print (f"Zipping: {file_path}")
 zipf.close()
-print (f"Backup successful: ' (source_folder)' has been backed up to '{zip_filenan
-27 folder_to_backup = input("Enter the name of the folder to backup (in the current wor
-30 zip_filename = f" (folder_to_backup}.zip"
-33 backup_folder_to_zip(folder_to_backup, zip_filename)
+print (f"Backup successful: ' (source_folder)' has been backed up to '{zip_filename}
+ folder_to_backup = input("Enter the name of the folder to backup (in the current word
+ zip_filename = f" {folder_to_backup}.zip"
+ backup_folder_to_zip(folder_to_backup, zip_filename)
